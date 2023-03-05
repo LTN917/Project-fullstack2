@@ -1,0 +1,28 @@
+$themeColor: rgb(94, 197, 137);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "./header";
+
+@import "./main";
+
+@import "./footer";
+
+// RWD
+
+@media screen and (max-width: 600px) {
+  header {
+    nav {
+      ul {
+        flex-direction: column;
+        li {
+          padding: 0.5rem 0.25rem;
+        }
+      }
+    }
+  }
+}

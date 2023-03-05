@@ -1,0 +1,12 @@
+footer {
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+footer section.footer-logo img {
+  padding: 1rem;
+  width: 10vw;
+  height: 10vh;
+}/*# sourceMappingURL=footer.css.map */
